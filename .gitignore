@@ -3,4 +3,5 @@ node_modules
 coverage
 uploads
 dist
+logs
 .env

@@ -2,12 +2,11 @@
   "name": "nodejs-expresjs-typescript-starter",
   "version": "0.0.1",
   "description": "A nodejs starter template with expressjs and typescript",
-  "main": "src/index.ts",
   "scripts": {
     "build": "tsc",
-    "dev": "nodemon src/index.ts",
-    "start": "npm run build && node dist/index.js",
-    "test":"jest",
+    "dev": "nodemon src/server.ts",
+    "start": "npm run build && node dist/src/server.js",
+    "test": "jest",
     "test-coverage": "jest --coverage",
     "lint": "eslint . --ext .ts",
     "lint-fix": "eslint . --ext .ts --fix",
@@ -27,6 +26,7 @@
     "@types/node": "^16.11.12",
     "@typescript-eslint/eslint-plugin": "^5.6.0",
     "@typescript-eslint/parser": "^5.6.0",
+    "cross-env": "^7.0.3",
     "dotenv": "^10.0.0",
     "eslint": "^8.4.1",
     "eslint-config-prettier": "^8.3.0",
@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "ts-node": "^10.4.0"
+    "ts-node": "^10.4.0",
+    "winston": "^3.3.3"
   }
 }
