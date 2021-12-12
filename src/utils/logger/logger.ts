@@ -19,7 +19,7 @@ const format = winston.format.combine(
 const options: winston.LoggerOptions = {
     transports: [
         new winston.transports.Console({
-            level: process.env.NODE_ENV === 'production' ? 'errror' : 'debug',
+            level: 'debug',
             format: winston.format.combine(winston.format.colorize(), format),
         }),
         new winston.transports.File({
