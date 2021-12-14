@@ -77,7 +77,7 @@ Writing unit tests in TypeScript can sometimes be troublesome and confusing. Esp
 
 ## License
 
-Licensed under the MIT. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boilerplate/blob/main/LICENSE) file for details.
+Licensed under the MIT. See the [LICENSE](https://github.com/atheodosiou/TypeScript-Node-Express-Starter/blob/master/LICENCE) file for details.
 
 [ts-badge]: https://img.shields.io/badge/TypeScript-4.5-blue.svg
 [nodejs-badge]: https://img.shields.io/node/v/gh-badges.svg
