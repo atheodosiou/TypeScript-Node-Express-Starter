@@ -8,6 +8,7 @@ const options: ConnectOptions = {
 };
 
 const connectToDb = (uri: string) => {
+    logger.info('Trying to connect to database');
     connect(uri, options)
         .then(() => {
             logger.info('Database connected successfully');

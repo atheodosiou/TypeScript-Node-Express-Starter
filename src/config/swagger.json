@@ -1,0 +1,33 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "TypeScript Node Express Starter",
+        "description": "Swagger documentation about TypeScript Node Express Starter boilerplate."
+    },
+    "host": "localhost:3100",
+    "basePath": "/api/v1",
+    "schemes": [
+        "http"
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/example": {
+            "get": {
+                "description": "Example GET request",
+                "operationId": "findPets",
+                "produces": [
+                    "text/plain"
+                ],
+                "responses": {
+                    "200": "v1 example request"
+                }
+            }
+        }
+    }
+}

@@ -45,9 +45,7 @@ app.use(
 
 //Error handling
 app.use(failSaveHandler);
-// app.use('**',(req:any,res:any,next:any)=>{
-//     //Error Handling
-// });
+
 
 //TODO: Add swagger
 
