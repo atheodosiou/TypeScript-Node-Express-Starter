@@ -1,4 +1,5 @@
 import { Router, Request, Response, NextFunction } from 'express';
+import { HttpException } from '../../models/httpException.model';
 
 const router = Router();
 
