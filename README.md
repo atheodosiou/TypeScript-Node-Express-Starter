@@ -93,8 +93,8 @@ Licensed under the MIT. See the [LICENSE](https://github.com/jsynowiec/node-type
 [gha-ci]: https://github.com/atheodosiou/TypeScript-Node-Express-Starter/actions/workflows/nodejs.yml/badge.svg
 [typescript]: https://www.typescriptlang.org/
 [typescript-4-5]: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-5.html
-[license-badge]: https://img.shields.io/badge/license-APLv2-blue.svg
-[license]: https://github.com/atheodosiou/TypeScript-Node-Express-Starter/blob/master/package.json
+[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
+[license]: https://github.com/atheodosiou/TypeScript-Node-Express-Starter/blob/master/LICENCE
 [jest]: https://facebook.github.io/jest/
 [eslint]: https://github.com/eslint/eslint
 [prettier]: https://prettier.io
