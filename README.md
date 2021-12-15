@@ -78,6 +78,8 @@ unzip node-typescript-boilerplate.zip && rm node-typescript-boilerplate.zip
 
 ## Additional Informations
 
+Documetation provided by [swagger-ui-express][swagger-ui], can be accessed under `/api-docs`
+
 ### Writing tests in JavaScript **optional**
 
 Writing unit tests in TypeScript can sometimes be troublesome and confusing. Especially when mocking dependencies and using spies.
@@ -87,7 +89,7 @@ Writing unit tests in TypeScript can sometimes be troublesome and confusing. Esp
 Licensed under the MIT. See the [LICENSE](https://github.com/atheodosiou/TypeScript-Node-Express-Starter/blob/master/LICENCE) file for details.
 
 [ts-badge]: https://img.shields.io/badge/TypeScript-4.5-blue.svg
-[nodejs-badge]: https://img.shields.io/node/v/gh-badges.svg
+[nodejs-badge]: https://img.shields.io/badge/Node-%3E%3D10-green
 [nodejs]: https://nodejs.org/dist/latest-v14.x/docs/api/
 [express]: https://expressjs.com
 [mongoose]: https://mongoosejs.com/docs/guide.html
