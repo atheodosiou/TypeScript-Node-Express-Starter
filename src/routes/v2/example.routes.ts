@@ -1,9 +1,8 @@
-import { Router, Request, Response, NextFunction } from 'express';
+import { Router } from 'express';
+import { v2Controllers } from '../../controllers/index';
 
 const router = Router();
 
-router.get('/example', (req: Request, res: Response, next: NextFunction) => {
-    res.status(200).send('v2 example request');
-});
+router.get('/example', v2Controllers.exampleHandler);
 
 export { router };
