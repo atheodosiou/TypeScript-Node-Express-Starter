@@ -21,11 +21,6 @@
     "clear": "del-cli --force dist coverage/*",
     "prepare": "husky install"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run format && npm run lint && npm run test"
-    }
-  },
   "keywords": [
     "Nodejs",
     "Expressjs",
