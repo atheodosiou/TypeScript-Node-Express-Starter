@@ -29,7 +29,7 @@ connectToDb(process.env.MONGODB_URI);
 configureExpressApp(app, true, windowMs, 100);
 
 app.use(express.json());
-    
+
 app.use('/api', rootRouter);
 
 app.use(
@@ -45,7 +45,6 @@ app.use(
 
 //Error handling
 app.use(failSaveHandler);
-
 
 //TODO: Add swagger
 

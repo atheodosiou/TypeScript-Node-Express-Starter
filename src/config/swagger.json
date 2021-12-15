@@ -7,23 +7,15 @@
     },
     "host": "localhost:3100",
     "basePath": "/api/v1",
-    "schemes": [
-        "http"
-    ],
-    "consumes": [
-        "application/json"
-    ],
-    "produces": [
-        "application/json"
-    ],
+    "schemes": ["http"],
+    "consumes": ["application/json"],
+    "produces": ["application/json"],
     "paths": {
         "/example": {
             "get": {
                 "description": "Example GET request",
                 "operationId": "findPets",
-                "produces": [
-                    "text/plain"
-                ],
+                "produces": ["text/plain"],
                 "responses": {
                     "200": "v1 example request"
                 }
