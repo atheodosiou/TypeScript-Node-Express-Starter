@@ -21,6 +21,8 @@ All basic 🛠 included and configured:
 - NPM [scripts](#available-scripts) for common operations
 - Simple example of TypeScript code and unit test
 - Also includes .prettierrc for consistent file format
+- Improve your commits and more thanks to [Husky][husky]
+- Pre-added hook for pre-commit that runs prettier, lint and your test before commit
 - Example configuration for [GitHub Actions][gh-actions]
 - Example configuration for [Travis CI][travis-ci]
 - Example code for mongodb connection
@@ -69,6 +71,7 @@ unzip node-typescript-boilerplate.zip && rm node-typescript-boilerplate.zip
 - `format-check` - run format check for source files and tests,
 - `format` - formating source files and tests
 - `test:watch` - interactive watch mode to automatically re-run tests
+- `prepare` - husky install
 
 ## Additional Informations
 
@@ -87,6 +90,7 @@ Licensed under the MIT. See the [LICENSE](https://github.com/atheodosiou/TypeScr
 [mongoose]: https://mongoosejs.com/docs/guide.html
 [mongodb]: https://www.mongodb.com/
 [swagger]: https://swagger.io/
+[husky]: https://typicode.github.io/husky/#/
 [swagger-ui]: https://www.npmjs.com/package/swagger-ui-express
 [winston]: https://github.com/winstonjs/winston
 [morgan]:https://www.npmjs.com/package/morgan
