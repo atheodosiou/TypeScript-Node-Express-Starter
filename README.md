@@ -1,5 +1,7 @@
 # TypeScript Node Express Starter
 
+![thumb](https://user-images.githubusercontent.com/20326000/146277095-ace5c15b-f77d-4387-bab9-e045221afb0e.jpg)
+
 [![TypeScript version][ts-badge]][typescript-4-5]
 [![Node.js version][nodejs-badge]][nodejs]
 [![MTI][license-badge]][license]
