@@ -11,25 +11,26 @@
 
 All basic 🛠 included and configured:
 
-- [TypeScript][typescript] [4.5][typescript-4-5]
-- [Express][express], fast,unopinionated, minimalist web framework for [Nodejs][nodejs]
-- [Mongoose 6.1.1][mongoose] to work with [MongoDB][mongodb]
-- [Swagger][swagger] documentation also available via [swagger-ui-express][swagger-ui] pakage
-- [ESLint][eslint] with some initial rules recommendation
-- [Jest][jest] for fast unit testing and code coverage
-- Logging functionality with [Winston Logger][winston] and [Morgan Logger][morgan] from network requests
-- Type definitions for Node.js, Express and Jest
-- [Prettier][prettier] to enforce consistent code style
-- NPM [scripts](#available-scripts) for common operations
-- Simple example of TypeScript code and unit test
-- Also includes .prettierrc for consistent file format
-- Improve your commits and more thanks to [Husky][husky]
-- Pre-added hook for pre-commit that runs prettier, lint and your test before commit
-- Example configuration for [GitHub Actions][gh-actions]
-- Example configuration for [Travis CI][travis-ci]
-- Example code for mongodb connection
-- Example code for [Express][express] routes, controllers and middlewares
-- Example of api versioning
+-   [TypeScript][typescript] [4.5][typescript-4-5]
+-   [Express][express], fast,unopinionated, minimalist web framework for [Nodejs][nodejs]
+-   [Mongoose 6.1.1][mongoose] to work with [MongoDB][mongodb]
+-   [Swagger][swagger] documentation also available via [swagger-ui-express][swagger-ui] pakage
+-   [ESLint][eslint] with some initial rules recommendation
+-   [Jest][jest] for fast unit testing and code coverage
+-   Logging functionality with [Winston Logger][winston] and [Morgan Logger][morgan] from network requests
+-   Type definitions for Node.js, Express and Jest
+-   [Prettier][prettier] to enforce consistent code style
+-   NPM [scripts](#available-scripts) for common operations
+-   Simple example of TypeScript code and unit test
+-   Also includes .prettierrc for consistent file format
+-   Improve your commits and more thanks to [Husky][husky]
+-   Pre-added hook for pre-commit that runs prettier, lint and your test before commit
+-   Contains also a light wrapper over [Axios][axios] as a sigleton class called HttpClient
+-   Example configuration for [GitHub Actions][gh-actions]
+-   Example configuration for [Travis CI][travis-ci]
+-   Example code for mongodb connection
+-   Example code for [Express][express] routes, controllers and middlewares
+-   Example of api versioning
 
 🆓 Free for all and forever: available under the MIT license.
 
@@ -49,7 +50,7 @@ To clone the repository, use the following commands:
 git clone git@github.com:atheodosiou/TypeScript-Node-Express-Starter.git ./my-cool-project
 cd my-cool-project
 npm install
-``` 
+```
 
 ### Download latest release
 
@@ -62,18 +63,18 @@ unzip node-typescript-boilerplate.zip && rm node-typescript-boilerplate.zip
 
 ## Available Scripts
 
-- `clear` - remove coverage data and transpiled files,
-- `prebuild` - lint source files and tests before building,
-- `build` - transpile TypeScript to ES6,
-- `dev` - interactive watch mode to automatically transpile source files,
-- `start`- starting server from transpiled files (no watch mode),
-- `lint` - lint source files and tests by indicating errors and warnings,
-- `lint-fix` - lin source file and test by fixing erros and warnings where possible,
-- `test` - run tests,
-- `format-check` - run format check for source files and tests,
-- `format` - formating source files and tests
-- `test:watch` - interactive watch mode to automatically re-run tests
-- `prepare` - husky install
+-   `clear` - remove coverage data and transpiled files,
+-   `prebuild` - lint source files and tests before building,
+-   `build` - transpile TypeScript to ES6,
+-   `dev` - interactive watch mode to automatically transpile source files,
+-   `start`- starting server from transpiled files (no watch mode),
+-   `lint` - lint source files and tests by indicating errors and warnings,
+-   `lint-fix` - lin source file and test by fixing erros and warnings where possible,
+-   `test` - run tests,
+-   `format-check` - run format check for source files and tests,
+-   `format` - formating source files and tests
+-   `test:watch` - interactive watch mode to automatically re-run tests
+-   `prepare` - husky install
 
 ## Additional Informations
 
@@ -93,9 +94,10 @@ Licensed under the MIT. See the [LICENSE](https://github.com/atheodosiou/TypeScr
 [mongodb]: https://www.mongodb.com/
 [swagger]: https://swagger.io/
 [husky]: https://typicode.github.io/husky/#/
+[axios]: https://axios-http.com/
 [swagger-ui]: https://www.npmjs.com/package/swagger-ui-express
 [winston]: https://github.com/winstonjs/winston
-[morgan]:https://www.npmjs.com/package/morgan
+[morgan]: https://www.npmjs.com/package/morgan
 [gha-badge]: https://github.com/atheodosiou/TypeScript-Node-Express-Starter/actions/workflows/nodejs.yml/badge.svg
 [gha-ci]: https://github.com/atheodosiou/TypeScript-Node-Express-Starter/actions/workflows/nodejs.yml/badge.svg
 [typescript]: https://www.typescriptlang.org/

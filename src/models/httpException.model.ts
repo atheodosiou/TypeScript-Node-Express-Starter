@@ -5,6 +5,7 @@ class HttpException extends Error {
         super(message);
         this.status = status;
         this.message = message;
+        this.stack = undefined;
     }
 }
 
